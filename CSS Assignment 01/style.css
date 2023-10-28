@@ -1,0 +1,73 @@
+*{
+   margin:0;
+   padding:0;
+        box-sizing:border-box;
+   }
+  
+   #file{
+       color:red;
+       font-size:30px;
+       font-family: cursive;
+   }  
+ 
+ h2{
+    color:black;
+    font-family:Arial black;
+    font-size:12px;
+}
+#filer{
+    color:rgb(199, 100, 20,70);
+   font-family: "Segoe Print", Times, serif;
+   font-size:20px;
+   
+}
+        
+   .abc{
+       background-color:#20d45c;
+       border:5px;
+       font-size:20px;
+       
+       
+       }  
+       .rst{
+           background-color:white;
+       } 
+.xyz{
+background-color:rgb(215, 222, 217, 0.5);
+
+
+   
+}
+table{
+    
+    
+    border-collapse:collapse;
+    font-size:4px;
+font-color:solid black;
+   text-align:center;
+    
+}
+body{
+    background-color:white;
+}
+td{
+    border:1px solid;
+  font-size:10px;
+   }
+tr{
+    border:1px solid;
+   
+   
+}
+th{
+   border:1px solid;
+   font-size:20%;
+   
+   }
+   table tr:hover
+   td{
+      curser:pointer;
+      color:rgb(64, 55, 148);
+      background-color:violet;
+       
+   }
