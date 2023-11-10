@@ -1,0 +1,162 @@
+h3{
+    color: yellow;
+    position: top;
+    padding-top: 2px 2px;
+    margin-top: 0;
+    
+
+}
+html,
+body{
+    height:100%;
+    margin:0;
+    font-size: 16px;
+    font-family: Lato; sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+
+}
+.pimage1
+{
+    background-image: url(images1.jpg);
+   min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+}
+.pimage2{
+    background-image: url(images2.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.pimage3{
+    background-image: url(images7.jpg);
+    min-height: 400px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+}
+.textBg{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+    border:10px solid black ;
+    border-image: url(border2.png);
+    border-image-slice: 50;
+    border-image-width:30px ;
+    border-image-outset: 10px;
+    border-image-repeat: repeat;
+
+
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+.xyz{
+  border: 20px solid black;
+  text-align: justify;
+  padding: 10px;
+  border-image: url(border1.gif);
+  border-image-slice: 30;
+  border-image-width:15px ;
+
+  border-image-repeat: repeat;
+  border-image-outset: 1px;
+}
+#abc{
+    color: #923e3e;
+    
+}
+
+.navbar{
+   background-color:transparent;
+    border-radius: 5px;
+     position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1;
+        height:100px;
+        
+        
+        
+    
+       
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 5px 20px;
+    padding: 14px 16px;
+    
+
+    
+    
+    
+    }
+    .navbar ul{
+        overflow: auto;
+}
+.navbar li a{
+    padding: 1px 1px;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    }
+    .box{
+float: right;
+color: white;
+padding: 12px 70px;
+ position: fixed;
+    right: 0;
+    margin:14px 16px ;
+
+    }
+
+    
+    .navbar input{
+        border: 2px solid black;
+        border-radius: 14px;
+        padding: 3px 10px;
+        width: 90px;
+    }
+    .navbar li a:hover{
+        background-color: red;
+    }
