@@ -1,0 +1,116 @@
+
+
+body{
+font-family: sans-serif;
+font-weight: 400;
+color: #fff;
+letter-spacing: 1px;
+
+}
+
+.book {
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.container{
+    background-color: #fafafa;
+    margin: 200px;
+    box-shadow: rgba(0,0,0,.1);
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+}
+.container-time{
+    background-color: rgba(0,0,0,.95);
+    padding: 50px;
+    outline: 3px dashed #998100;
+    outline-offset: -30px;
+    text-align: center;
+
+}
+.heading{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.heading-days{
+    color: #998100;
+    font-size: 30px;
+
+}
+.heading-phone{
+    font-size: 20px;
+
+}
+.container-form{
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #000;
+}
+form{
+    display: grid;
+    grid-row-gap: 20px;
+
+}
+form p{
+    font-weight: 600;
+}
+.form-field{
+    display: flex;
+    justify-content: space-between;
+}
+input select{
+    pad: 10px 15px;
+
+}
+.btn{
+    background-color: rgba(0,0,0,.95);
+    color: #fff;
+    padding:10px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 100px;
+    box-shadow: 7px 10px 12px rgba(0,0,0,.1);
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn:hover{
+    transform: scale(1.03);
+    box-shadow: 7px 10px 12px  rgba(0,0,0,.3);
+
+
+}
+.home-btn a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    background-color: 303ef7;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 10px;
+    color: black;
+    transition: 0.4s;
+border: 1px solid black;
+margin-left: 45%;
+margin-bottom: 50%;
+
+
+
+    
+}
+
+.home-btn a:hover {
+    background-color: transparent;
+    border: 2px solid;
+    background-color: #303ef7;
+    color: white;
+    
+}
+/*Media Query*/
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+}

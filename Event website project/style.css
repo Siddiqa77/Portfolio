@@ -1,0 +1,399 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;          
+}
+/*header start*/
+header {
+    width: 100%;
+    height: 900px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(https://img.freepik.com/free-photo/prepared-wedding-hall_8353-9873.jpg?size=626&ext=jpg&ga=GA1.1.186544464.1703630634&semt=ais);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header img{
+    width: 20%;
+    height: auto;
+    margin-top: 25px;
+}
+
+
+nav {
+
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #303ef7;
+    transition: 0.4s linear;
+
+}
+
+.register a {
+    color: white;
+    background-color: indianred;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.register a:hover {
+    background-color: transparent;
+    border: 1px solid indianred;
+}
+
+.abc {
+    max-width: 650px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+
+}
+
+.abc span {
+    letter-spacing: 5px;
+    opacity: 60%;
+    right: 1px;
+}
+
+.abc h1 {
+    font-size: 2.5em;
+    transition: 0.4s;
+}
+
+.abc a {
+    text-decoration: none;
+    letter-spacing: 5px;
+    background-color: indianred;
+    border-radius: 8px;
+    font-size: 30px;
+    padding: 10px 20px;
+    color: white;
+    transition: 0.4s;
+}
+
+.abc a:hover {
+    background-color: transparent;
+    border: 2px solid indianred;
+}
+
+.menu a:hover:before {
+    width: 90%;
+}
+/*header End*/
+
+/*service start*/
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0 8%;
+}
+
+.container h1 {
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 100px;
+    font-size: 50px;
+    position: relative;
+}
+
+.container h1::after {
+    content: '';
+    background: #303ef7;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+
+}
+
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    transition: traansform 0.5s, background 0.5s;
+}
+
+.service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #303ef7;
+}
+
+.service h1 {
+    font-weight: 600;
+    margin-bottom: 8px;
+
+}
+
+.service:hover {
+    background: #303ef7;
+    color: #fff;
+    transform: scale(1.0s);
+
+}
+
+.service:hover i {
+    color: #fff;
+}
+
+.service p {
+    font-size: 15px;
+    
+}
+
+/*service end*/
+
+/*
+button start */
+
+.btn a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    background-color: 303ef7;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 10px;
+    color: black;
+    transition: 0.4s;
+border: 1px solid black;
+margin-left: 40%;
+margin-bottom: 20px;
+   
+}
+
+.btn a:hover {
+    background-color: transparent;
+    border: 2px solid;
+    background-color: #303ef7;
+    color: white;
+}
+
+/*
+button  end*/
+
+/*package start*/
+
+.heading-title {
+    text-align: center;
+    margin-bottom:90px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.home-packages h1 {
+    text-align: center;
+    padding-top: 1%;
+    margin-bottom: 100px;
+    font-size: 50px;
+    position: relative;
+}
+
+.home-packages h1::after {
+    content: '';
+    background: #303ef7;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.home-packages {
+    background:white;
+}
+
+.home-packages .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 2rem;
+    
+}
+
+.home-packages .box-container .box {
+    border: .1rem solid black;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    background: white;
+    margin-bottom: 40px;
+}
+
+.home-packages .box-container .box:hover .image img {
+    transform: scale(1.1);
+}
+
+.home-packages .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+}
+
+.home-packages .box-container .box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.home-packages .box-container .box .content {
+    padding: 2rem;
+    text-align: left;
+    color: #e7750aee;
+    font-weight: bolder;
+    font-size: 20px;
+
+
+}
+
+.home-packages .box-container .box .content h3 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.home-packages .box-container .box .content p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 2;
+    padding: 0.5rem 0;
+}
+
+.home-packages .load-more {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home-offer {
+    text-align: center;
+}
+
+.home-offer .content {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.home-offer .content h3 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+.home-offer .content p {
+    font-size: 1.5rem;
+    color: #777;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+/*package start*/
+
+
+/*Footer Start */
+.footer {
+    background: #262626;
+
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    color: #eee;
+    text-decoration: none;
+}
+
+.footer .box-container .box a i {
+    padding-right: 0.5rem;
+    color: #303ef7;
+
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+    transition: 0.4 linear;
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: 0.1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.footer .credit span {
+    color: #303ef7;
+}
+
+/*Footer End*/
+
+/*Media Query*/
+@media screen and(max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+}

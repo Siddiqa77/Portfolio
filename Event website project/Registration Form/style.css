@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navbar {
+    background-color: rgba(255, 0, 157, 0.584);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    height: 70px;
+    
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+
+    float:right;
+    list-style: none;
+    margin:25px 10px ;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+            
+}
+.navbar h1{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(12, 12, 12);
+    float:left;
+    margin: 5px;
+    padding: 0 70px;
+    font-weight:600;
+    font-size: 3rem;
+
+
+}
+.navbar ul li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    
+}
+.navbar li a:hover{
+    background-color: rgba(255, 0, 0, 0.801);
+    color: blue;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+    
+    
+
+
+
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url("bgimage.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+
+.login-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.288);
+    background: rgba(232, 175, 175, 0.548);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: em;
+    color: black;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid black;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+    padding: 0 35px 0 5px;
+
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: black;
+    font-size: 1.2em;
+    line-height: 57px;
+}
+
+.remember-forgot {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input {
+    margin-right: 3px;
+
+
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+    color: blue;
+
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background: #837171;
+    border: solid black;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: black;
+    font-weight: 1000;
+}
+
+.register-link {
+    font-size: .9em;
+    color: black;
+    text-align: center;
+    margin: 25px 0 10px;
+
+}
+
+.register-link p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+
+}
+
+button:hover {
+    color: rgb(9, 236, 93);
+}
+
+.abc:hover:hover {
+    color: rgb(9, 236, 93);
+}
+ div .icon a{
+    font-size: x-large;
+    color: black;
+ } 
+ .name{
+    color:red;
+    font-size: 30px;
+    margin: 10px;
+ }
+ /*Media Query*/
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+}
