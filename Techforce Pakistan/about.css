@@ -1,0 +1,394 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+      background-image: url("https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+/* -----------------------------navbaar--------------------------- */
+/* -----------------------------navbaar--------------------------- */
+/* -----------------------------navbaar--------------------------- */
+.navbar-brand {
+   
+    margin-top: .5rem;
+    justify-content: center;
+    align-items: center; 
+ 
+    
+} 
+.container{
+    width: 80%;
+   
+   
+
+}
+ .nav-item {
+    margin-left: 5rem;
+    font-family: popin,  sans-serif;
+    font-weight: 600;
+    
+    
+}
+
+
+#navbarDropdownMenuLink{
+    
+    color: black;
+}
+.navbar-toggler:hover{
+    border: 3px solid blue;
+}
+#dropdown{
+    background-color: #70BDE9;
+    border-radius: 1rem;
+}
+
+
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+ .section{
+    width: 100%;
+    min-height: 100vh;
+   
+    
+}
+.box{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+   
+
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width: 40%;
+    border:none;
+    background-color: #ceeefebe;
+    box-shadow: 5px 10px 10px grey;
+    animation: move 2.5s linear infinite;
+   
+}
+
+
+.image-section img{
+    width: 100%;
+    height: auto;
+
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 21px;
+}
+.content-section .content p{
+margin-top: 10px;
+font-family: sans-serif;
+font-size: 18px;
+line-height: 1.5;
+}
+
+.content-section .content .button{
+    margin-top:40px ;
+   
+}
+
+
+
+.content-section .content .button a{
+    background-color: #CEEEFE;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    border-radius: 30px;
+    margin-left: 2rem;
+}
+.content-section .content .button a:hover{
+    background-color: blue;
+    color: #fff;
+    margin-top: 8rem;
+}   
+.content-section .social{
+    margin: 30px 40px;
+    margin-right: 2rem;
+
+}
+.content-section .social i{
+    font-size: 35px;
+    color: black;
+    padding: 0px 5px;
+}
+.content-section .social i:hover{
+color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------Animation------------------------------ */
+/* ----------------------------------Animation------------------------------ */
+/* ----------------------------------Animation------------------------------ */
+
+@keyframes move {
+     0% {
+        transform: translate (-15px, 0px);
+    }
+    50% {
+        transform: translate(0px, -15px);
+    } 
+    100% {
+        transform: translate(-15px, 0px);
+    } 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------footer----------------------- */
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    background-color:#0A1D3C;
+    padding: 60px 10%;
+}
+ #f-img{
+    width: 70%;
+    height: 50%px;
+ }
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    width: 25%;
+}
+
+.footer-col h4 {
+    position: relative;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    color:#EBF5FE;
+    text-transform: capitalize;
+    margin-left: 2.5rem;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #4514e3;
+    height: 2px;
+    width: 40px;
+    transition:all 1S;
+}
+
+ul li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    display: block;
+    font-size: 19px;
+    text-transform: capitalize;
+    color: #bdb6b6;
+    text-decoration: none;
+    transition: 0.2;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    padding-left: 2px;
+}
+
+.links a {
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    color: white;
+    background-color: rgba(40, 130, 214, 0.8);
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: 0.1s;
+    font-size: large;
+
+}
+
+.links a:hover {
+    color: #4d4f55;
+    background-color:#00FFFF;
+}
+.credit{
+    background-color: #0A1D3C;
+    width: 100%;
+    height: 100%;
+    border-top: 2px solid white;
+    padding: 4px 10px;
+}
+.copyright{
+   
+    text-align: center;
+    font-size: 20px;
+    color: #f0f0f0;
+    
+   
+}
+
+
+
+/* ------------------------------------------Media Querry---------------------- */
+/* ------------------------------------------Media Querry---------------------- */
+/* ------------------------------------------Media Querry---------------------- */
+@media(max-width: 493px){
+    
+    .content-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin-bottom:3rem;
+    
+    }
+    .content-section .content-section{
+        text-align: center;
+        font-size: 19px;
+}
+.content-section .content .button{
+    text-align: center;
+}
+.content-section .content .button a{
+    padding: 9px 30px;
+}
+
+.content-section .content h3{
+    font-size: 15px;
+    text-align:center ;
+}
+
+.content-section .content .button{
+    margin-right: 50px;
+}
+.content-section .social{
+    margin-left: 90px;
+}
+
+
+
+/* ----------------------------------------footer---------------------- */
+/* ----------------------------------------footer---------------------- */
+/* ----------------------------------------footer---------------------- */
+
+
+#f-img{
+    width: 90px;
+    height: 70px;
+
+ }
+
+.footer-col h4{
+    font-size: 10px;
+    
+}
+.footer-col h4::before {
+    content: '';
+   
+    width: 20px;
+    
+}
+
+.links a {
+    
+    height: 40px;
+    width: 40px;
+   margin-left:45px ;
+    font-size: small;
+
+}
+
+.footer-col ul li a {
+    display: block;
+    font-size: 12px;
+}
+.copyright{
+    font-size: small;
+}
+
+}
+
